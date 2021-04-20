@@ -53,6 +53,100 @@
         color:#39a6b2
 }
 
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  /* Hero Style Start */
+.hero {
+  background-image: url(../run-buddy/assets/css/style.css/images/hero-bg.jpeg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+
+}
+
+form p {
+    margin: 5px 0 15px 0;
+}
+
+.form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form label {
+  margin: 0 5px;
+}
+
+form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+/* Hero Style End */
+
+.big{
+     line-height: 3;
+}
+
     </style>
 
     <nav>
@@ -79,31 +173,106 @@
 
 <body>
 
+<!--hero section-->
+    <section class="hero">
+        <div>
+            <form>
+          <h3>Get Started Today</h3>
+          <p>Fill out this form and one of our trainers will schedule a consult</p>
+        
+        <label for="name">Enter full name:</label>
+        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+
+        <label for="email">Enter email address:</label>
+        <input type ="text" placeholder="Email Address" name="email" id="email" class="form-input"/>
+
+        <label for="phone">Enter a telephone number:</label>
+        <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+        <p>
+            Have you worked out with a trainer before?
+            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+            <label for="trainer-yes">Yes</label>
+
+            <input type="radio" name="trainer-confirm" id="trainer-no" />
+            <label for="trainer-no">No</label>
+        </p>
+
+        <p>
+            <label for="checkbox" >
+                I acknowledge that I am at least 18 years of age.
+            </label>
+            <input type="checkbox" name="age-confirm" id="checkbox" />
+        </p>
+        <button type="submit">
+        Get running!
+        </button>
+         </form>
+
+        </div>
+      </section>
+   
+     <!--end hero -->
+
  <!--"what we do" section-->   
- <section>
+ <section id="what-we-do">
     <h2>What We Do</h2>
+    <p>
+        butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+    </p>
 </section>
 
 <!--"what you do" section-->
-<section>
+<section id="what-you-do">
     <h2>What You Do</h2>
+
+    <div>
+        <!-- insert this img element -->
+        <img src="./assets/css/style.css/images/01-04-svgs/step-1.svg" alt="" />
+        <h3>Step 1: Fill Out the Form Above.</h3>
+        <p>You're already here, so why not?</p>
+    </div>
+
+    <div>
+        <img src="./assets/css/style.css/images/01-04-svgs/step-2.svg" alt="" />
+        <h3> Step 2: Consult with One of Our Trainers.</h3>
+        <p>Are you here to build muscle, lose weight, or just feel good?</p>
+    </div>
+
+    <div>
+        <img src="./assets/css/style.css/images/01-04-svgs/step-3.svg" alt="" />
+        <h3>Step 3: Get Running.</h3>
+        <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+    </div>
+
+    <div>
+        <img src="./assets/css/style.css/images/01-04-svgs/step-4.svg" alt="" />
+        <h3>Step 4: See Results.</h3>
+        <p>Bi-weekly checkins with your trainer will keep you focused</p>
+    </div>
 </section>
 
 <!--"meet the trainers" section-->
-<section>
+<section id="meet-the-trainers ">
     <h2>Meet The Trainers</h2>
 </section>
 
 <!--"reach out" section-->
-<section>
+<section id="reach-out">
     <h2>Reach Out </h2>
 </section>
 
 <!--footer-->
-<footer> 
-    <h2>❤️ Made with love by Run Buddy</h2>
-</footer>
+<footer>
+    <h2>❤️ Made with love by Run Buddy </h2>
 
-    
+    <div>
+        <a href="#">Read Our Privacy Policy</a><br />
+        &copy; 2019 Run Buddy, Inc.
+      </div>
+
+</footer>
 </body>
+
+
+
 </html>
