@@ -19,7 +19,6 @@ header h1 {
         color: #fce138;
         float: right;
         margin: 7px 0;
-    
     }
 
     header {
@@ -28,13 +27,11 @@ header h1 {
         padding: 20px 35px;
     }
 
-  
     header nav ul li {
   display: inline;
   font-weight: lighter;
   font-size: 16px;
 }
-
 
     body {
         font-weight: normal;
@@ -313,7 +310,6 @@ form button {
 
 .contact-map iframe {
    margin-left: 50px;
-
 }
 
 .contact-me {
